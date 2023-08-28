@@ -1,0 +1,11 @@
+/*文章块*/
+.cardHover, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space) {
+    border-radius: 12px;
+    background: rgba(20, 20, 30, 1);
+    box-shadow: #fff;
+}
+/*页码*/
+#pagination .page-number.current {
+    background: #184953;
+    color: var(--white);
+}
