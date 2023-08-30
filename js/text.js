@@ -1,0 +1,1 @@
+document.getElementById("nav-title-now").innerHTML=title=document.getElementById("nav-title").innerHTML;
