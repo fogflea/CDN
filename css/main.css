@@ -4,6 +4,12 @@
     background: rgba(20, 20, 30, 1);
     box-shadow: #fff;
 }
+/*文章块标题*/
+#recent-posts > .recent-post-item >.recent-post-info > .article-title {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: STXinwei;
+}
 /*页码*/
 #pagination .page-number.current {
     background: #184953;

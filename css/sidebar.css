@@ -1,3 +1,9 @@
 #aside-content .card-info #card-info-btn {
     border-radius: 12px;
 }
+/*作者名字*/
+#aside-content .card-info .author-info__name {
+    font-weight: 700;
+    font-size: 1.8em;
+    font-family: STXinwei;
+}

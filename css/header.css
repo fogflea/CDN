@@ -11,6 +11,8 @@
 #page-header.full_page {
     background-image: url(https://s1.imagehub.cc/images/2023/08/25/fogflea.gif);/*https://s1.imagehub.cc/images/2023/08/14/-2023-08-14-143929.png*/
     height: 100vh;
+    width: 100%;
+    background-size: 100% auto;
     background-attachment: fixed;
 }
 #page-header {
@@ -25,12 +27,6 @@
     width: 100%;
 }
 
-#site-logo.big-logo {
-    width: 175px;
-    height: 140px;
-    margin: 0 auto;
-    background: url(https://s1.imagehub.cc/images/2023/08/25/favicon.gif);
-}
 /*导航栏*/
 #page-header.nav-fixed #nav {
     background: rgba(10,10,10, 1);
@@ -43,6 +39,18 @@
 }
 #nav .menus_items .menus_item {
     padding-left: 25px;
+}
+.site-icon{
+    margin-bottom: 1%;
+}
+.state{
+    font-weight: bold;
+    font-size: larger;
+    font-family: STXinwei;
+    margin-left: 1.5%;
+}
+#nav-title{
+    font-family: STXinwei;
 }
 
 /*故障动画*/

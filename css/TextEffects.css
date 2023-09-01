@@ -1,0 +1,9 @@
+/*你知道的太多了*/
+.textsecert{
+    color: #000;
+    background-color: #000;
+}
+.textsecert:hover{
+    color: #fff;
+    background-color: #000;
+}
