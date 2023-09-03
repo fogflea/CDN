@@ -4,6 +4,10 @@
 /*作者名字*/
 #aside-content .card-info .author-info__name {
     font-weight: 700;
-    font-size: 1.8em;
-    font-family: STXinwei;
+    font-size: 2.1em;
+    font-family: Fixdsys;
+}
+/*Follow me*/
+#aside-content .card-info #card-info-btn span {
+    font-family: Fixdsys;
 }
