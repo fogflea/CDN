@@ -1,15 +1,13 @@
 @font-face {
     font-family: "fcon"; /* Project id 4235328 */
-    /* Color fonts */
-    src: 
-         url('//at.alicdn.com/t/c/font_4235328_96dqgdrmu7w.woff2?t=1693727162139') format('woff2'),
-         url('//at.alicdn.com/t/c/font_4235328_96dqgdrmu7w.woff?t=1693727162139') format('woff'),
-         url('//at.alicdn.com/t/c/font_4235328_96dqgdrmu7w.ttf?t=1693727162139') format('truetype');
+    src: url('//at.alicdn.com/t/c/font_4235328_74tmxym02j.woff2?t=1693729880119') format('woff2'),
+         url('//at.alicdn.com/t/c/font_4235328_74tmxym02j.woff?t=1693729880119') format('woff'),
+         url('//at.alicdn.com/t/c/font_4235328_74tmxym02j.ttf?t=1693729880119') format('truetype');
   }
   
   .fcon {
     font-family: "fcon" !important;
-    font-size: 22.5px;
+    font-size: 20px;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
