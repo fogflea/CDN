@@ -1,9 +1,45 @@
 /*你知道的太多了*/
-.textsecert{
+.text-secert{
     color: #000;
     background-color: #000;
 }
-.textsecert:hover{
+.text-secert:hover{
     color: #fff;
     background-color: #000;
+}
+/*抖动*/
+.text-shake{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) infinite both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+/*闪烁*/
+.text-flash{
+    animation: flash 1.5s infinite;
+}
+@keyframes flash {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
 }
