@@ -1,11 +1,13 @@
 @font-face {
-    font-family: "iconfont"; /* Project id 4235305 */
-    src: url('//at.alicdn.com/t/c/font_4235305_k1kjveb20o.woff2?t=1693713048468') format('woff2'),
-         url('//at.alicdn.com/t/c/font_4235305_k1kjveb20o.woff?t=1693713048468') format('woff'),
-         url('//at.alicdn.com/t/c/font_4235305_k1kjveb20o.ttf?t=1693713048468') format('truetype');
+    font-family: "fcon"; /* Project id 4235328 */
+    /* Color fonts */
+    src: 
+         url('//at.alicdn.com/t/c/font_4235328_96dqgdrmu7w.woff2?t=1693727162139') format('woff2'),
+         url('//at.alicdn.com/t/c/font_4235328_96dqgdrmu7w.woff?t=1693727162139') format('woff'),
+         url('//at.alicdn.com/t/c/font_4235328_96dqgdrmu7w.ttf?t=1693727162139') format('truetype');
   }
   
-  .iconfont {
+  .fcon {
     font-family: "fcon" !important;
     font-size: 22.5px;
     font-style: normal;
@@ -13,46 +15,79 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-down:before {
-    content: "\e600";
+  .fcon-cog:before {
+    content: "\e60c";
   }
   
-  .icon-eye:before {
-    content: "\e601";
+  .fcon-copy-botton:before {
+    content: "\e60d";
   }
   
-  .icon-home:before {
-    content: "\e602";
+  .fcon-categories:before {
+    content: "\e60e";
   }
   
-  .icon-love:before {
-    content: "\e603";
+  .fcon-search:before {
+    content: "\e60f";
   }
   
-  .icon-calendar:before {
+  .fcon-arrow-alt:before {
+    content: "\e610";
+  }
+  
+  .fcon-reading:before {
+    content: "\e611";
+  }
+  
+  .fcon-eye:before {
+    content: "\e612";
+  }
+  
+  .fcon-list:before {
+    content: "\e613";
+  }
+  
+  .fcon-archives:before {
+    content: "\e614";
+  }
+  
+  .fcon-post-meta:before {
+    content: "\e615";
+  }
+  
+  .arrow-up:before {
+    content: "\e616";
+  }
+  
+  .fcon-cancel:before {
     content: "\e604";
   }
   
-  .icon-up:before {
-    content: "\e605";
-  }
-  
-  .icon-wifi:before {
+  .fcon-time:before {
     content: "\e606";
   }
   
-  .icon-top:before {
+  .fcon-calendar:before {
+    content: "\e605";
+  }
+  
+  .fcon-tags:before {
     content: "\e607";
   }
   
-  .icon-tag:before {
+  .fcon-heart:before {
     content: "\e608";
   }
   
-  .icon-user:before {
+  .fcon-scroll-down:before {
     content: "\e609";
   }
   
-  .icon-bottom:before {
+  .fcon-comments:before {
     content: "\e60a";
   }
+  
+  .fcon-update:before {
+    content: "\e60b";
+  }
+  

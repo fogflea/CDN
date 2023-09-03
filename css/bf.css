@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 4235305 */
+    src: url('//at.alicdn.com/t/c/font_4235305_k1kjveb20o.woff2?t=1693713048468') format('woff2'),
+         url('//at.alicdn.com/t/c/font_4235305_k1kjveb20o.woff?t=1693713048468') format('woff'),
+         url('//at.alicdn.com/t/c/font_4235305_k1kjveb20o.ttf?t=1693713048468') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "fcon" !important;
+    font-size: 22.5px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-down:before {
+    content: "\e600";
+  }
+  
+  .icon-eye:before {
+    content: "\e601";
+  }
+  
+  .icon-home:before {
+    content: "\e602";
+  }
+  
+  .icon-love:before {
+    content: "\e603";
+  }
+  
+  .icon-calendar:before {
+    content: "\e604";
+  }
+  
+  .icon-up:before {
+    content: "\e605";
+  }
+  
+  .icon-wifi:before {
+    content: "\e606";
+  }
+  
+  .icon-top:before {
+    content: "\e607";
+  }
+  
+  .icon-tag:before {
+    content: "\e608";
+  }
+  
+  .icon-user:before {
+    content: "\e609";
+  }
+  
+  .icon-bottom:before {
+    content: "\e60a";
+  }
