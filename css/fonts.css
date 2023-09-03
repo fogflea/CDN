@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'Fixdsys';
+    src: url('./fonts/Fixdsys.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Ipix';
+    src: url('./fonts/Ipix.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
