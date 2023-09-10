@@ -30,7 +30,11 @@
 /*导航栏*/
 #page-header.nav-fixed #nav {
     background: rgba(10,10,10, 1);
-    border-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 95%;
+    align-items: center;
+    margin: 0 2.5%;
     
 }
 #nav .site-page {
