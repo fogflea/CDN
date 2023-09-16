@@ -6,11 +6,11 @@ function changeCover(title){
           "关于我":"https://s1.imagehub.cc/images/2023/08/25/fogflea.gif"}
     if(title!="标签"&&title!="分类"&&title!="Archives"&&title!="关于我"){
         if(title!="Fogflea's blog"){
-            document.getElementById("page-header").style.backgroundImage+=",linear-gradient(rgba(34, 34, 34, 0.8),rgba(34, 34, 34, 0.3))"
+            document.getElementById("page-header").style.backgroundImage="linear-gradient(rgba(32, 32, 32, 0.3), rgba(32, 32, 65, 0.75)),"+document.getElementById("page-header").style.backgroundImage;
         }
         return;
     }
-    document.getElementById("page-header").style.backgroundImage="linear-gradient(rgba(34, 34, 34, 0.8),rgba(34, 34, 34, 0.3)),url("+imgs[title]+")";
+    document.getElementById("page-header").style.backgroundImage="linear-gradient(rgba(32, 32, 32, 0.3), rgba(32, 32, 65, 0.75)),url("+imgs[title]+")";
 }
 function findTitle(){
     Ids=["site-title","nav-title"];
