@@ -19,7 +19,7 @@
     text-shadow: 0 8px 10px #6699FF;  /*设置文字阴影*/                                           
  }
  /*荧光闪烁*/
- .a{
+ .text-fluorescence{
     color:#0000FF; /*设置文字颜色*/
     text-decoration: none;
     -webkit-animation: shine 2.4s infinite;/*设置动画*/
