@@ -3,6 +3,7 @@
     border-radius: 12px;
     background: rgba(20, 20, 30, 1);
     box-shadow: #fff;
+    opacity: 0.88;
 }
 /*文章块标题*/
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
@@ -14,4 +15,10 @@
 #pagination .page-number.current {
     background: #184953;
     color: var(--white);
+}
+/*背景*/
+#content-inner{
+    background-image: url(https://th.bing.com/th/id/OIG.tXUGK0CMF3fdokMbEeLQ?pid=ImgGn);
+    background-size: 100% auto;
+    background-attachment: fixed;
 }
