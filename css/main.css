@@ -1,7 +1,7 @@
 /*文章块*/
 .cardHover, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space) {
     border-radius: 12px;
-    background: rgba(20, 20, 30, 1);
+    background: rgba(20, 20, 30, 0.8);
     box-shadow: #fff;
     opacity: 0.88;
 }
@@ -10,6 +10,7 @@
     font-size: 2em;
     font-weight: bold;
     font-family: Ipix;
+    color: #b000d4;
 }
 /*页码*/
 #pagination .page-number.current {
