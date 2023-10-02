@@ -3,7 +3,7 @@
     border-radius: 12px;
     background: rgba(20, 20, 30, 0.8);
     box-shadow: #fff;
-    opacity: 0.88;
+    opacity: 1;
 }
 /*文章块标题*/
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
