@@ -4,6 +4,9 @@
     background: rgba(20, 20, 30, 0.8);
     box-shadow: #fff;
     opacity: 1;
+    border-style: groove;
+    border-color: gold;
+    border-width: 2.5px;
 }
 /*文章块标题*/
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
