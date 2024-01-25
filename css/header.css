@@ -10,7 +10,7 @@
 /*大图片*/
 #page-header.full_page {
     background-image: url(https://s1.imagehub.cc/images/2023/08/25/fogflea.gif);/*https://s1.imagehub.cc/images/2023/08/14/-2023-08-14-143929.png*/
-    height: 100vh;
+    height: 5vh;
     width: 100%;
     background-size: 100% auto;
     background-attachment: fixed;
@@ -20,12 +20,12 @@
   }
 
 /*scroll-down图片*/
-#page-header.full_page #site-info {
+/* #page-header.full_page #site-info {
     position: absolute;
     top: 75%;
     padding: 0 10px;
     width: 100%;
-}
+} */
 
 /*导航栏*/
 #page-header.nav-fixed #nav {
@@ -36,6 +36,11 @@
     align-items: center;
     margin: 0 2.5%;
     opacity: 0.88;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-color: gold;
+    border-width: 2.5px;
 }
 #nav .site-page {
     padding-bottom: 3px;
