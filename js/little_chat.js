@@ -89,21 +89,13 @@ document.getElementById('send').addEventListener('click', function() {
   }
 });
 
-// function sendMessageToDify(message) {
-//   // 这个函数应该发送消息给dify，并返回一个Promise，这个Promise在收到dify的回复时解析
-//   // 这里只是一个示例，你需要根据你的实际情况来实现这个函数
-//   return new Promise(function(resolve, reject) {
-//     setTimeout(function() {
-//       resolve('这是dify的回复');
-//     }, 1000);
-//   });
-// }
+//发送消息给dify
 function sendMessageToDify(message) {
   return new Promise(function(resolve, reject) {
     fetch('https://api.dify.ai/v1/completion-messages', {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer {YOUR_API_KEY}',
+        'Authorization': 'Bearer app-ALBmIDveAfFmeHR0fJc3TVik',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ inputs: {"text": message}, response_mode: "blocking", user: "user"})
