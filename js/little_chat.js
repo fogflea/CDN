@@ -5,7 +5,6 @@ function makeDraggable(element) {
   var mouseOffset = { x: 0, y: 0 };
 
   element.addEventListener('mousedown', function(event) {
-    event.preventDefault();
     isDragging = true;
     var rect = element.getBoundingClientRect();
     mouseOffset.x = event.clientX - rect.left;
@@ -15,7 +14,7 @@ function makeDraggable(element) {
 
   window.addEventListener('mousemove', function(event) {
     if (!isDragging) return;
-    event.preventDefault();
+    event.preventDefault(); // 添加这一行
     var newRight = window.innerWidth - (event.clientX - mouseOffset.x) - element.offsetWidth;
     var newBottom = window.innerHeight - (event.clientY - mouseOffset.y) - element.offsetHeight;
     if (newRight < 0) newRight = 0;
@@ -28,7 +27,6 @@ function makeDraggable(element) {
   });
 
   window.addEventListener('mouseup', function(event) {
-    event.preventDefault();
     isDragging = false;
   });
 }
@@ -105,7 +103,7 @@ function sendMessageToDify(message) {
     fetch('https://api.dify.ai/v1/completion-messages', {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer app-ALBmIDveAfFmeHR0fJc3TVik',
+        'Authorization': 'Bearer {YOUR_API_KEY}',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ inputs: {"text": message}, response_mode: "blocking", user: "user"})
