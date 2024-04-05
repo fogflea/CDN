@@ -81,25 +81,28 @@ document.getElementById('close').addEventListener('click', function() {
 makeDraggable(document.getElementById('chatbot'));
 makeDraggable(document.getElementById('ball'));
 
-//发送消息
-document.getElementById('send').addEventListener('click', function() {
-  var input = document.getElementById('input');
-  var messages = document.getElementById('upper-part');
-  if (input.value.trim() !== '') {
-    var userMessage = document.createElement('div');
-    userMessage.textContent = input.value;
-    userMessage.className = 'bubble';
-    messages.appendChild(userMessage);
-    messages.scrollTop = messages.scrollHeight; // 添加这一行
-    input.value = '';
-    // 发送消息给dify
-    sendMessageToDify(userMessage.textContent).then(function(response) {
-      var difyMessage = document.createElement('div');
-      difyMessage.textContent = response;
-      difyMessage.className = 'bubble bubble-left';
-      messages.appendChild(difyMessage);
-      messages.scrollTop = messages.scrollHeight;
-    });
+// 发送消息
+document.getElementById('input').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') {
+    e.preventDefault(); // 防止默认的换行操作
+    var input = document.getElementById('input');
+    var messages = document.getElementById('upper-part');
+    if (input.value.trim() !== '') {
+      var userMessage = document.createElement('div');
+      userMessage.textContent = input.value;
+      userMessage.className = 'bubble';
+      messages.appendChild(userMessage);
+      messages.scrollTop = messages.scrollHeight; // 添加这一行
+      input.value = '';
+      // 发送消息给dify
+      sendMessageToDify(userMessage.textContent).then(function(response) {
+        var difyMessage = document.createElement('div');
+        difyMessage.textContent = response;
+        difyMessage.className = 'bubble bubble-left';
+        messages.appendChild(difyMessage);
+        messages.scrollTop = messages.scrollHeight;
+      });
+    }
   }
 });
 
