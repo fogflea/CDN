@@ -51,17 +51,31 @@ document.getElementById('ball').addEventListener('click', function() {
   var chatbot = document.getElementById('chatbot');
   chatbot.style.right = ball.style.right;
   chatbot.style.bottom = ball.style.bottom;
+  ball.style.opacity = '0';
   chatbot.style.display = 'flex';
-  ball.style.display = 'none';
+  chatbot.style.transform = 'scale(0)';
+  setTimeout(function() {
+    chatbot.style.opacity = '1';
+    chatbot.style.transform = 'scale(1)';
+  }, 0);
+  chatbot.style.zIndex = '1000000';
+  ball.style.zIndex = '1000001';
 });
 
 document.getElementById('close').addEventListener('click', function() {
   var ball = document.getElementById('ball');
   var chatbot = document.getElementById('chatbot');
-  ball.style.right = chatbot.style.right;
-  ball.style.bottom = chatbot.style.bottom;
-  chatbot.style.display = 'none';
-  ball.style.display = 'flex';
+  chatbot.style.opacity = '0';
+  chatbot.style.transform = 'scale(0)';
+  setTimeout(function() {
+    chatbot.style.display = 'none';
+    ball.style.right = chatbot.style.right;
+    ball.style.bottom = chatbot.style.bottom;
+    ball.style.display = 'flex';
+    ball.style.opacity = '1';
+  }, 300); // 这里的 300 是你的动画持续时间，你需要根据你的 CSS 来调整这个值
+  chatbot.style.zIndex = '1000001';
+  ball.style.zIndex = '1000000';
 });
 
 makeDraggable(document.getElementById('chatbot'));
