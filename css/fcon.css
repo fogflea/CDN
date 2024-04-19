@@ -1,171 +1,90 @@
 @font-face {
-  font-family: "fcon"; /* Project id 4235328 */
-  src: url('//at.alicdn.com/t/c/font_4235328_c2ruvc2tnqn.woff2?t=1713530301541') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4235328_c2ruvc2tnqn.woff?t=1713530301541') format('woff'),
-       url('//at.alicdn.com/t/c/font_4235328_c2ruvc2tnqn.ttf?t=1713530301541') format('truetype');
+  font-family: "fon"; /* Project id 4516012 */
+  src: url('//at.alicdn.com/t/c/font_4516012_fhx8wayiey6.woff2?t=1713532976433') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4516012_fhx8wayiey6.woff?t=1713532976433') format('woff'),
+       url('//at.alicdn.com/t/c/font_4516012_fhx8wayiey6.ttf?t=1713532976433') format('truetype');
 }
 
-.fcon {
-  font-family: "fcon" !important;
-  font-size: 20px;
+.fon {
+  font-family: "fon" !important;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.search:before {
-  content: "\21";
-}
-
-.about:before {
-  content: "\e623";
-}
-
-.menu:before {
-  content: "\e624";
-}
-
-.eye:before {
-  content: "\e625";
-}
-
-.archive:before {
-  content: "\e626";
-}
-
-.fenlan:before {
-  content: "\e627";
-}
-
-.gettop:before {
-  content: "\e628";
-}
-
-.link:before {
-  content: "\e629";
-}
-
-.config:before {
-  content: "\e62a";
-}
-
-.calendar:before {
-  content: "\e619";
-}
-
-.tool:before {
-  content: "\e61a";
-}
-
-.book:before {
-  content: "\e61b";
-}
-
-.categories:before {
-  content: "\e61c";
-}
-
-.cross:before {
-  content: "\e61d";
-}
-
-.update:before {
-  content: "\e61e";
-}
-
-.time:before {
-  content: "\e61f";
-}
-
-.tags:before {
-  content: "\e620";
-}
-
-.commets:before {
-  content: "\e621";
-}
-
-.word:before {
-  content: "\e618";
-}
-
-.a-1524084716_d8193a0757480850eba79f9eb21244ec_fullsi:before {
-  content: "\e617";
-}
-
-.fcon-cog:before {
+.fon-tags:before {
   content: "\e60c";
 }
 
-.fcon-copy-botton:before {
+.fon-book:before {
   content: "\e60d";
 }
 
-.fcon-categories:before {
+.fon-gettop:before {
   content: "\e60e";
 }
 
-.fcon-search:before {
+.fon-categories:before {
   content: "\e60f";
 }
 
-.fcon-arrow-alt:before {
+.fon-time:before {
   content: "\e610";
 }
 
-.fcon-reading:before {
+.fon-update:before {
   content: "\e611";
 }
 
-.fcon-eye:before {
+.fon-config:before {
   content: "\e612";
 }
 
-.fcon-list:before {
+.fon-calendar:before {
   content: "\e613";
 }
 
-.fcon-archives:before {
+.fon-commets:before {
   content: "\e614";
 }
 
-.fcon-post-meta:before {
+.fon-menu:before {
   content: "\e615";
 }
 
-.arrow-up:before {
+.fon-tool:before {
   content: "\e616";
 }
 
-.fcon-cancel:before {
-  content: "\e604";
+.fon-cross:before {
+  content: "\e617";
 }
 
-.fcon-time:before {
-  content: "\e606";
+.fon-archives:before {
+  content: "\e618";
 }
 
-.fcon-calendar:before {
-  content: "\e605";
+.fon-eye:before {
+  content: "\e619";
 }
 
-.fcon-tags:before {
-  content: "\e607";
+.fon-link:before {
+  content: "\e61a";
 }
 
-.fcon-heart:before {
-  content: "\e608";
+.fon-fenlan:before {
+  content: "\e61b";
 }
 
-.fcon-scroll-down:before {
-  content: "\e609";
+.fon-search:before {
+  content: "\e61c";
 }
 
-.fcon-comments:before {
-  content: "\e60a";
-}
-
-.fcon-update:before {
+.fon-word:before {
   content: "\e60b";
 }
 
+.fon-about:before {
+  content: "\e60a";
+}
