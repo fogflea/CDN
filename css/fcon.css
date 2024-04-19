@@ -1,8 +1,8 @@
 @font-face {
   font-family: "fcon"; /* Project id 4235328 */
-  src: url('//at.alicdn.com/t/c/font_4235328_j6y9h4268l.woff2?t=1713529971392') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4235328_j6y9h4268l.woff?t=1713529971392') format('woff'),
-       url('//at.alicdn.com/t/c/font_4235328_j6y9h4268l.ttf?t=1713529971392') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4235328_c2ruvc2tnqn.woff2?t=1713530301541') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4235328_c2ruvc2tnqn.woff?t=1713530301541') format('woff'),
+       url('//at.alicdn.com/t/c/font_4235328_c2ruvc2tnqn.ttf?t=1713530301541') format('truetype');
 }
 
 .fcon {
@@ -14,7 +14,7 @@
 }
 
 .search:before {
-  content: "\31";
+  content: "\21";
 }
 
 .about:before {
