@@ -1,16 +1,96 @@
 @font-face {
   font-family: "fcon"; /* Project id 4235328 */
-  src: url('//at.alicdn.com/t/c/font_4235328_zdgsd2tvog8.woff2?t=1694322862575') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4235328_zdgsd2tvog8.woff?t=1694322862575') format('woff'),
-       url('//at.alicdn.com/t/c/font_4235328_zdgsd2tvog8.ttf?t=1694322862575') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4235328_j6y9h4268l.woff2?t=1713529971392') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4235328_j6y9h4268l.woff?t=1713529971392') format('woff'),
+       url('//at.alicdn.com/t/c/font_4235328_j6y9h4268l.ttf?t=1713529971392') format('truetype');
 }
 
 .fcon {
   font-family: "fcon" !important;
-  font-size: 17px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.search:before {
+  content: "\31";
+}
+
+.about:before {
+  content: "\e623";
+}
+
+.menu:before {
+  content: "\e624";
+}
+
+.eye:before {
+  content: "\e625";
+}
+
+.archive:before {
+  content: "\e626";
+}
+
+.fenlan:before {
+  content: "\e627";
+}
+
+.gettop:before {
+  content: "\e628";
+}
+
+.link:before {
+  content: "\e629";
+}
+
+.config:before {
+  content: "\e62a";
+}
+
+.calendar:before {
+  content: "\e619";
+}
+
+.tool:before {
+  content: "\e61a";
+}
+
+.book:before {
+  content: "\e61b";
+}
+
+.categories:before {
+  content: "\e61c";
+}
+
+.cross:before {
+  content: "\e61d";
+}
+
+.update:before {
+  content: "\e61e";
+}
+
+.time:before {
+  content: "\e61f";
+}
+
+.tags:before {
+  content: "\e620";
+}
+
+.commets:before {
+  content: "\e621";
+}
+
+.word:before {
+  content: "\e618";
+}
+
+.a-1524084716_d8193a0757480850eba79f9eb21244ec_fullsi:before {
+  content: "\e617";
 }
 
 .fcon-cog:before {
@@ -88,3 +168,4 @@
 .fcon-update:before {
   content: "\e60b";
 }
+
